@@ -13,7 +13,7 @@ expect(() => Nombre(''), throwsA(isA<LongitudMinimaExcepcion>()));
   
   });
    test('Se permite los caracteres normales', () {
-    Nombre nombre = Nombre('alehi');
+    Nombre nombre = Nombre("alehi");
     expect(true, equals(true));
   });
   test('No se permite los caracteres extraños', () {
